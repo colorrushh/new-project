@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+ 
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+ 
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">arts</h1>+
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div class="social-links mt-3">
+        <a href="https://www.instagram.com" target="_blank" class="instagram"><i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/?text=Hello" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+        <style>/* General Styling for Social Media Icons */
+          .social-links {
+            display: flex;
+            justify-content: center; /* Centers icons horizontally */
+            align-items: center;    /* Aligns icons vertically */
+            gap: 15px;              /* Adds even spacing between icons */
+            margin-top: 20px;
+          }
+          
+          .social-links a {
+            font-size: 24px;         /* Icon size */
+            text-decoration: none;   /* Removes underline */
+            color: #333;             /* Default icon color */
+            transition: color 0.3s ease, transform 0.3s ease;
+          }
+          
+          .social-links a:hover {
+            color: #007bff;          /* Hover color */
+            transform: scale(1.2);   /* Slight zoom on hover */
+          }
+          
+          /* Specific Hover Colors for Each Social Media Platform */
+          .social-links .instagram:hover {
+            color: #e4405f;          /* Instagram color */
+          }
+          
+          .social-links .twitter:hover {
+            color: #1da1f2;          /* Twitter color */
+          }
+          
+          .social-links .facebook:hover {
+            color: #1877f2;          /* Facebook color */
+          }
+          
+          .social-links .linkedin:hover {
+            color: #0077b5;          /* LinkedIn color */
+          }
+          
+          .social-links .whatsapp:hover {
+            color: #25d366;          /* WhatsApp color */
+          }
+          </style>
+      </div>
+
+      <a class="btn-getstarted" href="login.html">Get Started</a>
+      
+      
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+
+      <img src="assets/img/pexels-atlasworld-1674049.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+
+        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-6 col-lg-8">
+            <h2><span>COLORRUSHH_ARTSY</span></h2>
+            <p>Where art speaks louder than words.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="row gy-4 mt-5 justify-content-center." data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-pencil"></i>
+              </h3> <h3><a href="custom.html">Custom Portraits</a></h3> <!-- Corrected link wrapping the text -->
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-brush"></i>
+              <h3><a href="">Charcoal Sketches</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-image"></i>
+              <h3><a href="">Photo to Sketch</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <i class="bi bi-palette"></i>
+              <h3><a href="">Special Occasion Art</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="icon-box">
+              <i class="bi bi-file-earmark"></i> <!-- Corrected icon -->
+              <h3><a href="digitalsketch.html">Digital Sketches</a></h3> <!-- Corrected link wrapping the text -->
+            </div>
+          </div>
+          
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <!-- About Section -->
+<section id="about" class="about section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="assets/img/clients/image.png" class="img-fluid" alt="Sketch Artist">
+      </div>
+      <div class="col-lg-6 order-2 order-lg-1 content">
+        <h3>Sketch Artist & Illustrator</h3>
+        <p class="fst-italic">
+          Passionate about capturing life’s moments with pencil and paper, creating intricate sketches that tell stories.
+        </p>
+        <ul>
+          <li><i class="bi bi-check2-all"></i> <span>Specialized in realistic pencil sketches and charcoal art.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Offering custom portrait drawings from photos.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Creating sketches for personal, commercial, and artistic projects.</span></li>
+        </ul>
+        <p>
+          With years of experience, I bring your ideas to life through detailed sketches that express emotions, memories, and stories.
+          Every piece is hand-drawn with care, aiming to capture the true essence of the subject.
+        </p>
+        <!-- Sketch Artist Information -->
+        <p><strong>Artist Name:</strong> ANJALI KHUSHWA</p>
+        <p><strong>Specialty:</strong> Realistic Pencil Sketches, Portrait Art</p>
+        <p><strong>Contact:</strong> ANJALI@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section><!-- /About Section -->
+
+    <!-- /About Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          
+          
+      </div>
+
+    </section><!-- /Clients Section -->
+<!-- Features Section -->
+<section id="features" class="features section">
+
+  <div class="container">
+
+    <div class="row gy-4">
+      <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/clients/TT.webp" alt="Sketch Art Example"></div>
+      <div class="col-lg-6">
+
+        <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-pencil flex-shrink-0"></i>
+          <div>
+            <h4>Realistic Portraits</h4>
+            <p>Specializing in creating lifelike portraits that capture the essence of the subject with every detail.</p>
+          </div>
+        </div><!-- End Features Item-->
+
+        <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-brush flex-shrink-0"></i>
+          <div>
+            <h4>Custom Drawings</h4>
+            <p>Offering personalized sketch art based on customer photos or requests, making each piece unique.</p>
+          </div>
+        </div><!-- End Features Item-->
+
+        <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-palette flex-shrink-0"></i>
+          <div>
+            <h4>Charcoal Art</h4>
+            <p>Creating stunning charcoal sketches that bring out depth and texture, ideal for more dramatic expressions.</p>
+          </div>
+        </div><!-- End Features Item-->
+
+        <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+          <i class="bi bi-color-splash flex-shrink-0"></i>
+          <div>
+            <h4>Art for Special Occasions</h4>
+            <p>Crafting personalized sketches for weddings, anniversaries, and other milestones to create lasting memories.</p>
+          </div>
+        </div><!-- End Features Item-->
+
+      </div>
+    </div>
+
+  </div>
+</section><!-- /Features Section -->
+
+
+    </section><!-- /Features Section -->
+
+    <!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Sketching Services</h2>
+    <p>Explore the artistic services we offer</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-pencil"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Custom Portrait Sketches</h3>
+          </a>
+          <p>Bring your favorite memories to life with personalized pencil sketches. Ideal for gifts or personal keepsakes.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-pen"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Realistic Charcoal Art</h3>
+          </a>
+          <p>Deep, bold charcoal sketches that capture intricate details with a unique contrast and texture.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-image"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Photo to Sketch</h3>
+          </a>
+          <p>Convert your favorite photo into a hand-drawn sketch. Perfect for any moment you want to preserve.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-palette"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Sketch Art for Special Events</h3>
+          </a>
+          <p>Celebrate your special day with an event sketch. Capture the moment in an art form for lasting memories.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-scan"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Digital Sketching Services</h3>
+          </a>
+          <p>Get your sketch digitally rendered for use in various media, including prints and online platforms.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-chat-square-text"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Art Consultation</h3>
+          </a>
+          <p>Consult with our artist to discuss custom sketches, techniques, and ideas for your own artistic project.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- End Services Section -->
+
+
+   <!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section dark-background">
+
+  <img src="assets/img/cta-bg.jpg" alt="Call to Action Background">
+
+  <div class="container">
+    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-10">
+        <div class="text-center">
+          <h3>Contact Our Sketch Artist</h3>
+          <p>Explore the creative world of our talented sketch artist who brings ideas to life through their exceptional drawing skills. Whether it's portraits, illustrations, or custom sketches, we have something special for you.</p>
+          <a class="cta-btn" href="#">Get Your Custom Sketch Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /Call To Action Section -->
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Artist's Portfolio</h2>
+    <p>Discover Our Latest Sketches and Drawings</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-portrait">Portraits</li>
+        <li data-filter=".filter-landscape">Landscapes</li>
+        <li data-filter=".filter-custom">Custom Sketches</li>
+      </ul><!-- End Portfolio Filters -->
+
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-portrait">
+          <img src="assets/img/masonry-portfolio/Portraits.jpg" class="img-fluid" alt="Portrait 1">
+          <div class="portfolio-info">
+            <h4>Portrait 1</h4>
+            <p>Custom sketch of a character portrait.</p>
+            <a href="assets/img/masonry-portfolio/Portraits.jpg"title="Portrait 1" data-gallery="portfolio-gallery-portrait" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-landscape">
+          <img src="assets/img/masonry-portfolio/Landscapes.jpg"class="img-fluid" alt="Landscape 1">
+          <div class="portfolio-info">
+            <h4>Landscape 1</h4>
+            <p>Beautiful nature sketch capturing serene landscapes.</p>
+            <a href="assets/img/masonry-portfolio/Landscapes.jpg"title="Landscape 1" data-gallery="portfolio-gallery-landscape" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
+          <img src="assets/img/masonry-portfolio/pencil.jpg" class="img-fluid" alt="Custom Sketch 1">
+          <div class="portfolio-info">
+            <h4>Custom Sketch 1</h4>
+            <p>A personalized sketch designed just for you.</p>
+            <a href="assets/img/masonry-portfolio/pencil.jpg"  title="Custom Sketch 1" data-gallery="portfolio-gallery-custom" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <!-- Additional Portfolio Items can be added in similar format -->
+
+      </div><!-- End Portfolio Container -->
+    </div><!-- End Isotope Layout -->
+  </div><!-- End Container -->
+
+</section><!-- End Portfolio Section -->
+
+<<!-- /Portfolio Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-lg-5">
+            <img src="assets/img/stats-img.jpg" alt="Sketch Artist Portfolio" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6">
+
+            <h3 class="fw-bold fs-2 mb-3">Expressing Life Through Art</h3>
+            <p>
+              Every drawing tells a story, capturing the essence of emotions, scenes, and moments. With years of experience in sketching, I bring ideas to life with precision and creativity.
+            </p>
+
+            <div class="row gy-4">
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Satisfied Clients</strong> <span>cherishing unique sketches</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-journal-richtext flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Art Pieces</strong> <span>created with passion</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-headset flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Hours of Dedication</strong> <span>to perfect every detail</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-people flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Collaborations</strong> <span>with clients and artists</span></p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+<!-- /Stats Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section dark-background">
+
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="" class="testimonial-img" alt="">
+                <h3>anjali</h3>
+                <h4>Art Collector</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"Absolutely stunning artwork! The level of detail and emotion captured in the sketches is unparalleled. Truly a master of the craft."</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            
+
+          
+
+    </section><!-- /Testimonials Section -->
+
+   <!-- Testimonials Section -->
+   <section id="testimonials" class="testimonials section dark-background">
+
+    <img src="assets/img/sketch-testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "auto",
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            }
+          }
+        </script>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/sketch-artist-1.jpg" class="testimonial-img" alt="">
+              <h3>Alice Brown</h3>
+              <h4>Sketch Artist</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>"Her drawings beautifully capture emotions and details that leave you mesmerized. Truly an artist of extraordinary talent."</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/sketch-artist-2.jpg" class="testimonial-img" alt="">
+              <h3>David Lee</h3>
+              <h4>Illustrator</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>"Incredible artistry with a unique perspective. Each piece tells a story that resonates deeply with viewers."</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/sketch-artist-3.jpg" class="testimonial-img" alt="">
+              <h3>Sophia White</h3>
+              <h4>Art Enthusiast</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>"Sophia's work is a true inspiration, blending technical skill with boundless creativity. Her sketches are unforgettable."</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">arts+.</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>santoshi mata nagar</p>
+              <p>sambhaji nagar, maharashtra 431001</p>8
+              <p class="mt-3"><strong>Phone:</strong> <span>+91</span></p>
+              <p><strong>Email:</strong> <span>anajli@gmal.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Sketch Artist Services</h4>
+            <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#"> Pencil Sketching</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#"> Digital Art</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#"> Custom Portraits</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#"> Character Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#"> Art Workshops</a></li>
+            </ul>
+        </div>
+        
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span></span> 
+          <h1 class="sitename">arts</h1>+ 
+          <span>All Rights Reserved</span></p>
+        <div class="credits">
+        
+          Designed by RUSHIKESH shengule
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
